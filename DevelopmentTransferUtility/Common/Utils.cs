@@ -72,7 +72,7 @@ namespace NpoComputer.DevelopmentTransferUtility.Common
     /// </summary>
     /// <param name="tableName">Имя таблицы.</param>
     /// <param name="connection">Соединение.</param>
-    /// <returns>Истоина, если таблица существует.</returns>
+    /// <returns>Истина, если таблица существует.</returns>
     public static bool TableExists(string tableName, SqlConnection connection)
     {
       const string CheckTableExistsCommandTextTemplate = "select object_id('{0}')";
