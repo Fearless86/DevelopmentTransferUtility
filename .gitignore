@@ -1,3 +1,5 @@
 
 DevelopmentTransferUtility/bin/
 DevelopmentTransferUtility/obj/
+*.suo
+/.vs

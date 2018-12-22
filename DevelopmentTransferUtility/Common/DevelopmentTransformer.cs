@@ -331,6 +331,7 @@ namespace NpoComputer.DevelopmentTransferUtility.Common
     /// <summary>
     /// Выполнить экспорт из пакета разработки в структуру папок.
     /// </summary>
+    /// <param name="packageReaderSettings">Настройки считывателя пакетов.</param>
     private void HandleExportPackage(XmlReaderSettings packageReaderSettings)
     {
       using (var fileStream = File.OpenRead(this.PackageFileName))
